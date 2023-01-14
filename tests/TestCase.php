@@ -10,7 +10,6 @@ use Composer\Package\Package;
 use Composer\Package\AliasPackage;
 use Composer\Package\RootPackage;
 use Composer\Semver\Constraint\Constraint;
-use Composer\Util\Filesystem;
 use Composer\Installer\InstallationManager;
 use Composer\Repository\RepositoryManager;
 use Composer\Downloader\DownloadManager;
