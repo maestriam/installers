@@ -1,0 +1,7 @@
+<phpunit colors="true">
+    <testsuites>
+        <testsuite name="Maestriam/Installers Tests">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

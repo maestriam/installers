@@ -1,0 +1,37 @@
+{
+    "name": "maestriam/installers",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "*",
+        "composer/installers": "^2.2"
+    },
+    "require-dev": {
+        "composer/composer": ">=2.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maestriam\\Installers\\": "src/"
+        }
+        
+    },
+    "autoload-dev": {
+        "psr-4": { 
+            "Maestriam\\Installers\\Tests\\": "tests/" 
+        }
+    },
+    "authors": [
+        {
+            "name": "Giuliano Sampaio",
+            "email": "giuguitar@gmail.com"
+        }
+    ],
+    "extra": {
+        "class": "Maestriam\\Installers\\InstallerPlugin"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
