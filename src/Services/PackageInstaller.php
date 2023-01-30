@@ -9,7 +9,7 @@ class PackageInstaller extends LibraryInstaller
 {
     private $installers = [
         'blade-theme'    => ThemeInstaller::class,
-        'maestro-module' => ModuleInstaller::class,
+        'strauss-module' => ModuleInstaller::class,
     ];
 
     private $instances = [];
