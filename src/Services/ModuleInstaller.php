@@ -7,7 +7,7 @@ use Maestriam\Installers\Exceptions\PackageInstallerException;
 
 class ModuleInstaller extends BaseInstaller
 {
-    public $defaultRoot = 'strauss';
+    public $defaultRoot = 'maestro';
 
     protected function getModuleName(PackageInterface $package)
     {
