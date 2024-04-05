@@ -13,7 +13,6 @@
         "psr-4": {
             "Maestriam\\Installers\\": "src/"
         }
-        
     },
     "autoload-dev": {
         "psr-4": { 
